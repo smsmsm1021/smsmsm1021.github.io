@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>로그인</title>
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+	}
+	body{
+		background-color: #f5f6f7;
+	}
+	#page{
+		width: 1000px;
+		margin: auto;
+		//border:solid 1px red;
+		background-color: #f5f6f7;
+		padding: 0px 20px 20px 20px;
+	}
+	header {
+		width: 1000px;
+		height: 680px;
+		margin-top: 10px;
+		border: solid 0px #cccccc;
+		border-color: blue;
+		border-radius: 10px;
+		background-color: #f5f6f7;
+	}
+	#t1{
+		font-size: 24px;
+		font-weight: bold;
+		color: blue;
+	}
+	#btn{
+		width: 380px;
+		height: 50px;
+		border-radius: 5px;
+		margin: 10px;
+		background-color: #87ceeb;
+		font-size: 20px;
+	}
+	.s1{
+		font-weight: bold;
+		text-decoration: underline; 
+		padding: 5px 40px;
+	}
+	input[type="text"]
+	{
+		background:white;
+		color: black;
+		height: 50px;
+		font-size: 20px;
+		width: 400px;
+	}
+	input[type="password"]
+	{
+		background:white;
+		height: 50px; 
+		width: 400px;
+		font-size: 20px;
+	}
+	table{
+		border-collapse: collapse;
+	}
+	table,th,td{
+		border: solid 0px #123456;
+	}
+	section{
+		margin-left: 290px;
+		margin-top: 90px;
+		border-radius: 10px;
+		border: solid 0px #123456;
+		width: 380px;
+		padding: 20px;
+		font-family: "맑음 고딕","돋음";	
+	}
+	footer{
+		width: 1000px;
+		height: 100px;
+		margin-top: 10px;
+		border: solid 0px #cccccc;
+		border-color: black;
+		border-radius: 1px;
+	}
+	#customer{
+		float: right;
+		margin: 30px 0 0 180px;
+	}
+	#letter{
+		padding-left: 420px;
+		padding-top: 100px;
+	}
+</style>
+</head>
+<body>
+<div id="page">
+	<a href="../index.html"><img src="./img/sea1.PNG" width="1000" height="150"></a>
+	<header>
+	<div id="letter">
+	<h2>국내 여름 여행</h2>
+	</div>
+		<section>
+<table border="1">
+	<tr>
+		<td><input id="logbut" type="text" placeholder="아이디"></td>
+	</tr>
+	<tr>  <td>  &nbsp; </td></tr>
+	<tr>
+		<td><input id="logbut" type="password" placeholder="비밀번호"></td>
+	</tr>
+		<td colspan="2"><button type="submit" id="btn">로그인</button></td>
+	<tr>
+		<td colspan="3"><span class=s1><a href="register.html">회원가입</a></span><span class=s1>아이디/비밀번호찾기</span></td>
+	</tr>
+</table>
+</section>
+</header>
+<footer>
+	<div id="customer">
+	안내문의전화 : 010-XXXX-XXXX
+	</div>
+</footer>
+</div>
+</body>
+</html>

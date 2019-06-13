@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>여름방학 여행하기</title>
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+	}
+	.clear {
+		clear:both;
+	}
+	body{
+		background-color: #f5f6f7;
+	}
+	header {
+		width: 990px;
+		height: 100px;
+		margin-top: 10px;
+		border: dashed 3px skyblue;
+		margin-bottom: 5px;
+	}
+	#top{
+		float: right;
+		margin: 30px 20px 0 0;
+	}
+	nav{
+		width: 1000px;
+		height: 50px;
+		margin-top: 0px;
+		border: solid 0px #cccccc;
+		padding-top: 0px; 
+		border-color: blue;
+		padding-bottom: 25px;
+	}
+	nav  li{
+		display: inline;
+		margin: 0px;
+		padding-bottom: 0px;
+
+	}
+	li{
+		list-style-type: none;
+	}
+	section{
+		float: left;
+		margin-top: 10px;
+		border: solid 0px #cccccc;
+		border-color: blue;
+	}
+	aside{
+		height: 159px;
+		float: left;
+		margin-left: 2px;
+		margin-top: 10px;
+		border: solid 3px #cccccc;
+		padding-left: 20px;
+		padding-right: 10px;
+		border-color: skyblue;
+	}
+	aside li {
+		margin-top: 5px;
+		margin-bottom: 8px;
+	}
+	footer{
+		width: 990px;
+		height: 100px;
+		margin-top: 10px;
+		border: solid 2px skyblue;
+	}
+	#address{
+		float: left;
+		margin: 30px 0 0 20px;
+	}
+	#customer{
+		float: right;
+		margin: 30px 0 0 180px;
+	}
+	#page{
+		width: 1000px;
+		margin: auto;
+		//border:solid 1px red;
+		background-color: #f5f6f7;
+		padding: 0px 20px 20px 20px;
+	}
+	.dropdown{
+		background: #35477d;
+		display: inline-block;
+		font-size: 20px;
+		color: rgba(255,255,255,0.85);
+		text-decoration: none;
+		letter-spacing: 0.1em;
+		padding-top: 25px;
+		padding-left: 40px;
+		text-align: center;
+		border-right: 1px solid rgba(0,0,0,0.15);
+	}
+	.dropdownContents{
+		margin-top: 24px;
+		margin-left: 0px;
+		display: none;
+		background-color:#23c9f4;
+		position: absolute;/*옆으로*/
+		width: 220px;
+		padding: 12px 16px;
+		border: 1px solid #35477d;
+	}
+	.dropdown:hover .dropdownContents{
+		display: block;
+	}
+	#ul{
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 25px;
+	}
+	#dongyang{
+		float: left;
+		margin-top: 20px;
+		padding-left: 20px;
+	}
+	#travel{
+		margin-top: 20px;
+		float: left;
+		color: skyblue;
+	}
+</style>
+</head>
+<body>
+	<div id="page">
+<img src="./img/sea1.PNG" width="995" height="150">
+<header>
+		<img id="dongyang" src="./img/dongyang.PNG" width="80" height="50"><h1 id="travel">동양투어</h1>
+	<div id="top">
+		<a href="./anotherpage/login.html">로그인</a> | 
+		<a href="./anotherpage/register.html">회원가입</a> | 마이페이지
+	</div>
+</header>
+<div class="clear"></div>
+<nav>
+	<div class="clear">
+<div class="dropdown">
+<ul id="ul">   테마여행
+	<div class="dropdownContents">
+	<li><a href="./anotherpage/waterpark.html">워터파크</a> </li><br>
+	<li><a href="./anotherpage/camping.html">캠핑여행 </a></li><br>
+	<li>맛집투어</li>
+</div>
+</div>
+</ul>
+<div class="dropdown">
+<ul id="ul"> 지역여행
+	<div class="dropdownContents">
+	<li>서울</li><br>
+	<li><a href="./anotherpage/gi.html">경기도</a></li><br>
+	<li>강원도</li><br>
+	<li>전라도</li><br>
+	<li>충청도</li><br>
+	<li>경상도</li>
+</div>
+</div>
+</ul>
+<div class="dropdown">
+<ul id="ul"> 여행정보
+	<div class="dropdownContents">
+	<li>여행사</li><br>
+	<li>이벤트</li>
+	<li></li>
+</div>
+</div>
+</ul>
+</div>
+</nav>
+<div class="clear">
+<section>
+	<img src="./img/summervacation.PNG" width="810" height="165">
+</section>
+
+<aside>
+	<ul>
+		<li><a href="./anotherpage/jangho.html"><h3 id="recommend">추천 바다 여행지</h3></a></li><br>
+		<li><a href="./anotherpage/country.html"><h3 id="recommend">추천 시내 여행지</h3></a></li><br>
+	</ul>
+</aside>
+</div>
+<section class="clear">
+	<img src="./img/tema.PNG" width="325">
+	<img src="./img/region.PNG" width="325">
+	<img src="./img/infor.PNG" width="325">
+</section>
+<div class="clear">
+<footer>
+	<div id="customer">
+		안내문의전화 : 010-XXXX-XXXX
+	</div>
+</footer>
+</div>
+</body>
+</html>

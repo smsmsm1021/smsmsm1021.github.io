@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>회원가입</title>
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		background-color: #f5f6f7;
+	}
+	#page{
+		width: 1000px;
+		margin: auto;
+		//border:solid 1px red;
+		background-color: #f5f6f7;
+		padding: 0px 20px 20px 20px;
+	}
+	header {
+		width: 1000px;
+		height: 1100px;
+		margin-top: 10px;
+		border: solid 0px #cccccc;
+		border-color: blue;
+		border-radius: 10px;
+		background-color: #f5f6f7;
+	}
+	section{
+		margin-left: 290px;
+		margin-top: 0px;
+		border-radius: 0px;
+		border: solid 0px #123456;
+		width: 380px;
+
+		font-family: "맑음 고딕","돋음";	
+	}
+	#text
+	{
+		background:white;
+		color: black;
+		height: 50px;
+		font-size: 20px;
+		width: 400px;
+	}
+	input[type="password"]
+	{
+		background:white;
+		height: 50px; 
+		width: 400px;
+		font-size: 20px;
+	}
+	#year{
+		background:white;
+		color: black;
+		height: 50px;
+		font-size: 20px;
+		width: 120px;
+	}
+	#month{
+		background:white;
+		color: black;
+		height: 53px;
+		font-size: 20px;
+		width: 120px;
+		padding-bottom: 4px;
+	}
+	#gender{
+		background:white;
+		color: black;
+		height: 50px;
+		font-size: 20px;
+		width: 400px;
+	}
+	#email{
+		background:white;
+		color: black;
+		height: 50px;
+		font-size: 20px;
+		width: 400px;
+	}
+	#button{
+		background:#87ceeb;
+		color: black;
+		height: 50px;
+		font-size: 20px;
+		width: 400px;
+	}
+	section{
+		margin-left: 290px;
+		border-radius: 10px;
+		border: solid 0px #123456;
+		width: 380px;
+		padding: 20px;
+		font-family: "맑음 고딕","돋음";	
+	}
+	footer{
+		width: 1000px;
+		height: 100px;
+		margin-top: 10px;
+		border: solid 0px #cccccc;
+		border-color: black;
+	}
+	#customer{
+		float: right;
+		margin: 30px 0 0 180px;
+	}
+	#letter{
+		padding-left: 420px;
+		padding-top: 100px;
+	}
+</style>
+</head>
+<body>
+<div id="page">
+	<a href="../index.html"><img src="./img/sea1.PNG" width="1000" height="150"></a>
+<header>
+	<h2 id="letter">회원가입</h2><br>
+	<section>
+	<h3>아이디</h3>
+	<input id="text" maxlength="20">
+<br><br>
+	<h3>비밀번호</label></h3>
+	<input type="password" maxlength="20">
+<br><br>
+	<h3 class="join_title"><label for="pswd1">비밀번호 재확인</label></h3>
+	<input type="password" maxlength="20">
+<br><br>
+	<h3>이름</h3>
+	<input id="text" type="text" maxlength="20">
+<br><br>
+	<h3>생년월일</h3>
+	<input id="year" type="text" placeholder="년(4자)" maxlength="4">
+	<select id="month">
+	<option>월</option>
+	<option value="01">
+	1
+	</option>
+	<option value="02">
+	2
+	</option>
+	<option value="03">
+	3
+	</option>
+	<option value="04">
+	4
+	</option>
+	<option value="05">
+	5
+	</option>
+	<option value="06">
+	6
+	</option>
+	<option value="07">
+	7
+	</option>
+	<option value="08">
+	8
+	</option>
+	<option value="09">
+	9
+	</option>
+	<option value="10">
+	10
+	</option>
+	<option value="11">
+	11
+	</option>
+	<option value="12">
+	12
+	</option>
+</select>
+	<input id="year" type="text" placeholder="일" maxlength="2">
+	<br><br>
+	 <h3>성별</h3>
+	<select id="gender">
+	<option>성별</option>
+	<option>남자</option>
+	<option>여자</option>
+</select>
+<br><br>
+	<h3>본인 이메일</h3>
+<input type="email" id="email" maxlength="100" placeholder="선택입력" maxlength="100">
+<br><br>
+	<h3>휴대전화</h3>
+	<input type="tel" id="text" placeholder="전화번호 입력" maxlength="12">
+<br><br>
+	<button type="button" id="button">가입하기</button>
+</section>
+</header>
+<footer>
+	<div id="customer">
+	안내문의전화 : 010-XXXX-XXXX
+	</div>
+</footer>
+</div>
+</body>
+</html>
